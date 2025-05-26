@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" name="t1" tilewidth="16" tileheight="16" tilecount="198" columns="18">
+  <image source="background_0.png" width="288" height="180"/>
+ </tileset>
+ <tileset firstgid="199" name="t2" tilewidth="16" tileheight="16" tilecount="45" columns="9">
+  <image source="Basic_Grass_Biom_things.png" width="144" height="80"/>
+ </tileset>
+ <tileset firstgid="244" name="t3" tilewidth="16" tileheight="16" tilecount="12" columns="6">
+  <image source="Basic_Plants.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="256" name="t4" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="Fences.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="272" name="t5" tilewidth="16" tileheight="16" tilecount="9" columns="3">
+  <image source="Free_Chicken_House.png" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="281" name="t6" tilewidth="16" tileheight="16" tilecount="77" columns="11">
+  <image source="Hills.png" width="176" height="112"/>
+ </tileset>
+ <tileset firstgid="358" name="t7" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="Paths.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="374" name="t8" tilewidth="16" tileheight="16" tilecount="4" columns="4">
+  <image source="Simple_Milk_and_grass_item.png" width="64" height="16"/>
+ </tileset>
+ <tileset firstgid="378" name="t9" tilewidth="16" tileheight="16" tilecount="4" columns="4">
+  <image source="Water.png" width="64" height="16"/>
+ </tileset>
+ <tileset firstgid="382" name="t10" tilewidth="16" tileheight="16" tilecount="15" columns="5">
+  <image source="Wooden_House_Walls_Tilset.png" width="80" height="48"/>
+ </tileset>
+ <layer id="2" name="Слой тайлов 2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1+fXnUMUxuEjem9B9GhB9B6EDIkWRO9B9B5E7zei9yA64VWi9962+ne5zjrr/XbO4n0+e9b6fZp93zPPrJm994z1eu1tvIN38R6W4318gA/xET7GV71efYkv8Dk+w6f4BMZLXIkvuqIvPsWv+Bb/Mk+Noe/zDL8leBbP4XksxQt4ES/hZbyCt8S/iWV4A6/jNbwK4yWuxBdd0Ref4ld8i38tGcxXfZ97+AX34j7cj8V4AA/iITyMR/C0+KfwJJ7A43gMj8J4iSvxRVf0xaf4Fd/iXxnMV32fa/gtxLW4DtdjEW7AjbgJN+MW3C3+LtyJO3A7bsOtMF7iSnzRFX3xKX7Ft/jXwsF81fc5h998nIvzcD4W4AJciItwMS7B1eKvwpW4ApfjMlwK4yWuxBdd0Ref4ld8i3/NH8xXfZ9j+M3FsTgOx2MeTsCJOAkn4xScLf4snIkzcDpOw6kwXuJKfNEVffEpfsW3+NfcwXzV9zmA3wwciINwMGbiEByKWWg4DEeLPwpH4gjMwWwcDuMlrsQXXdEXn+JXfIt/zRjMV32fHfhNw47YCTtjOnbBrtgNu2MP7C9+P+yLfbA39sKeMF7iSnzRFX3xKX7Ft/jXtMF81ffZkN9kbISNsQmmYFNshs2xBbbE9uK3w7bYBlOxNbaC8RJX4ouu6ItP8Su+xb8mD+arvs8K/CZhRayElbEKVsVqWB1rYE1sIH59rId1sQ7WxlowXuJKfNEVffEpfsW3+NekwXzV9+n9/034s2+x/7H/sf+x/7H/sf+x/7H/sf+x/7H/sf+ZqGZYvHMS5y3OW5y3TIXzFuctzluctzhvcd7ivGVKB82wePci7lfcr7hfcb/ifsX9ivsV9yvuV9yvuF+Z3kEzLF4eiHwS+STySeSTyCeRTyKfpEE+iXwS+SQzO2iGxct7kT8jf0b+jPwZ+TPyZ+TPyJ+RPyN/Rv7MvA6aYfHyfNSLqBdRL6JeRL2IehH1IupF1IuoF1EvsqCDZli8uhb1Mepj1Meoj1Efoz5GfYz6GPUx6mPUxyzqoBkWr45HPxD9QPQD0Q9EPxD9QPQD0Q9EPxD9QPQDWdxBMyxe3xL9T5ZB/xP9T/Q/0f9E/xP9T/Q/0f9E/5OlHTTD4vVp0e9Fvxf9XvR70e9Fvxf9XvR70e9Fvxf9XpZ30AyL/xt/4U/8gd/xGwq/4hf8jJ/wI37ooOkyx/f4Dt/iG3zdcY/0xNETR08cPXHGOmA9zbqa9TXrbNbbrLtZf/Mfzf80/9X8X7POZr3Nupv1N//R/k0/SjPqbeB/m/9u/r/Zh2Y/mnX+57fFuH6UZtTbwHluznVzXptz25zfNpG3xbh+lGbU28D9be5xcz+be9rc1zaRt8W4fpRm1NtAvmryVpOPmrzU5Kc2kbfFuH6U5h9m3e26
+  </data>
+ </layer>
+ <layer id="1" name="Слой тайлов 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0ff3F1Icx/Ev2TOb7JCtrOy9V9kiJJSRiAhlPLOySckoe0QKWflmR/4uj3P8BX50zuee8zjnnnvfr9f94Q4NDdZgDdZg/T/WBmzICDZiYzZhUzZjc7ZgS7Zia7ZhW0ay/dBQ22Gfs9xlJrPJJJuOdKUz3XmjHWR3ZCd2Zhd2ZTdGsTt7sCd7sTf7sC+j2V/HftjnLHeZyWwyyaYjXelMd97oANkxHMhBHMwhHMphHM4RjGUcR3IUR3MM43Uci33OcpeZzCaTbDrSlc50542Okz2eEziRkziZUziV0zidMziTszibcziX83Wch33OcpeZzCaTbDrSlc50540ukL2Qi7iYS5jARC7lMi7nCq7kKq7mGiZxnY5rsc9Z7jKT2WSSTUe60pnuvNFk2eu5gRuZwk1M5WZu4VamMZ3buJ07uJO7dMzAPme5y0xmk0k2HelKZ7rzRjNl7+YeZnEv9zGb+3mAOTzIQzzMXObxCI/peBT7nOUuM5lNJtl0pCud6c4bPS4b83mCJ3mKp3mGBTzLczzPC7zIS7zMq+KvYJ+z3GUms8kkm450pTPdeaOFsq+xiMW8zhLe4E3e4m2Wsox3eJf3eJ8PdXyAfc5yl5nMJpNsOtKVznTnjT6S/ZhP+JTlfMbnrOALVrKKL/mKr1nNN3yn41vsc5a7zGQ2mWTTka50pjtv9L3sD6zhR4ZZy0/8zC/8ym/8zh+s40/+4m8d67HPWe4yk9lkkk1HutKZ7ob//drBGqzBGqz/tP4BAWvNyA==
+  </data>
+ </layer>
+ <layer id="3" name="Слой тайлов 3" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlFEKgzAQRPUYpv1Uf6P0hr1Nb9GjNR8K6TDuGrvZFurCgmTBl5lJ0jRn/VpdW3/mLTFH4HrsA7ld+h5Sh6UvMAsbs5IKCyPnDKS3ZuiTVJ3CKGmNm+fVG/DQC+Y35mXJlHRb62M9E25Ma1NFJtNqeYZK+B4eM2505GLGa741M2Y5e2WMXK+MJZ9nJ63sXn2DW8tz9l55aL0LWi3fy/Ws9Ds8Rr62h3TvnlqWJdy8tLzwvZva9yyjkq2knXn4IP4c+f9e9hHPPmXX0PQP9QLU8EpM
+  </data>
+ </layer>
+ <layer id="4" name="Слой тайлов 4" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlDEOgCAMRSFxcPAC6qUU4+Ti/U+hDEbSUNpi0cTwNoO0/5cPxlQqxvT2awXv8aXXVdh7VtbKrbcp9HX27rlk1NsFe7xezFvKS2yP9swpDWzAHCXz4TCc9cZIzYboE/MGZ+i/YfapmbRBfqh/JWc2J7Li6ZC1MM8hMW3uwdlI3wgI1EPdvSmxrpJbJlgvqYan95faX+J98GDnhPnPzUmOfm3PHO1XzzczWJLLB/Zul8pVqbqV/3EAZl0SEQ==
+  </data>
+ </layer>
+ <layer id="6" name="Слой тайлов 6" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBZQzYiK6W3fQNtLrt0wffjMJYRHwSgYBaNgFIyCUTAKRiIAAMvHD/0=
+  </data>
+ </layer>
+ <layer id="5" name="Слой тайлов 5" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztldlOwzAQRZ0PYCvrv4IKEkICfoyytaWlVanUhzwh+sTyA72WbBFNr+txHMFLjnTlJHbm1uOZxpiWlnXu/sl3GJl/gB5rxpZ7eiJrplCfPB9DrySGBr+nHnRP5rcKY7ahnYK//2zieQmxgF6gkWLtT00Pi89LF3s4hy7cXnYx7kEdsrdvN35An2IulCuJzUsJXSL+KXTlfPYxHkCHxPcrEGtu9LmyLKFrxL+Bbp3PEcZj6CRwlh555nOlp2VWuc7pBxmP1fakcl39jb4f6lA6eWK1/Wb09RDzXSa+k1IPIaTnhK76zf8004+xqU6GynWp2P8ebZ3k1BNDm0P2DahyVqyrSUpxz/y83jO9bJ/7GpM1ucnXwvovpVY03y+WY9Z/TdcKI1YXKSzE/SCwbhZ4nkuTPZ3CX5xTS7OsAN7WW84=
+  </data>
+ </layer>
+ <layer id="7" name="Слой тайлов 7" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4CBQZJxYOxVGSB7R8EoGG4gjhGCR5q96Hig7KV3GAwmuwcqDSC7ZaDspjb4BKU/QOnPDAwH6GEvDHwE4he0M34UQIE+MA4NgNiQjmmXnnaNgqEHAJDoEfQ=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" name="bg_bluesky" tilewidth="16" tileheight="16" tilecount="121" columns="11">
+  <image source="bg_bluesky.png" width="176" height="176"/>
+ </tileset>
+ <tileset firstgid="122" name="bg_cloud1" tilewidth="16" tileheight="16" tilecount="121" columns="11">
+  <image source="bg_cloud1.png" width="176" height="176"/>
+ </tileset>
+ <tileset firstgid="243" name="bg_cloud2" tilewidth="16" tileheight="16" tilecount="121" columns="11">
+  <image source="bg_cloud2.png" width="176" height="176"/>
+ </tileset>
+ <tileset firstgid="364" name="cloud_tileA5_1" tilewidth="16" tileheight="16" tilecount="128" columns="8">
+  <image source="cloud_tileA5_1.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="492" name="cloud_tileB_1" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="cloud_tileB_1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="748" name="cloud_tileset" tilewidth="16" tileheight="16" tilecount="1260" columns="45">
+  <image source="cloud_tileset.png" width="720" height="448"/>
+ </tileset>
+ <layer id="1" name="Слой тайлов 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJy91kVTA0EQhuEEl+AS3N3dNcEhwSHB3d3597xUbVftaZKhZjk8ty81PZnerna7XK4YxCIO8UhAIpKQjBSkwm0w60Ea0pGBTGQhGznIRR7yDWe9KEAhilCMEpSiDOWoQKXhbBWqUYNa1KEeDWhEE5rRYjjbija0owOd6EI3etCLPvQbzg5gEEMYxghGMYZxTGASPsNZP6YwjRnMYg7zWMAilhAwnA1iGStYxRrWsYFNbGEbIcPZMHawiz3s4wCHOMIxTnBqOHuGc1zgEle4xg1ucYd7PBjOPuIJz3jBK97wjg984gvfhrPuCCLNRZ3ZaedRiFST7pn5Nl6FSDXpnllpU6Wgqkn3vr9ntdi0Kqhq8vzh7H6bAQVVTV6X/v/ts/ErqGqSd9C9c8AS1Pyd1CTvIH0W7T4QsoQ1zw1a5B2kz6LdB04tut9D2CLvIH0W7T7wYIlmNpgkd1TNBidIH6hmgxOkD1SzwQnSB6rZ4ATZ9VSzwQmy66nmlRNk1wv+M9n1wv9Mdr0f/mmZkA==
+  </data>
+ </layer>
+ <layer id="2" name="Слой тайлов 2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1jVuBEEQQNHd0MzMzMzM7DX7XmZmZmZmxhv5B72hpZLcm1hT0ovma8KqtphNpiY0owWtaEM7OtCJ36aBb42w/OEfxth2utCNHvSiD/0YwCCGMIwRze0oxjCOCUxiCtOYwSzmMK+5XcAilrCMFaxiDevYwCa2NLfb2MEu9rCPAxziCMc4wanm9gznuMAlrnCNG9ziDvd40Nw+4gnPeMEr3vCOD3ziC9+aW2OMscU4cKMc4QRnuMAVbnCHh1nW2As7O9V6wwe+8IM/AhCIIAQLGy9h56naMIQjApGIQjRiEIs4YRMq7EJUm4gkJCMFqUhDOjKQKWwShF28anOQizzkowCFKEIxSoRNtrDLUm05KlCJKlSjBrWoQ72wKRN2paqVvMkkjfR9Z30LGnffuPv/8e5b97Vkt+sc676W7HYd8wOtUxYs
+  </data>
+ </layer>
+ <layer id="3" name="Слой тайлов 3" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer id="8" name="Слой тайлов 8" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzzERAAAIxDAGXOLfByaY+MRAr1WQYVr3s7RfAIALC2CZAX0=
+  </data>
+ </layer>
+ <layer id="4" name="Слой тайлов 4" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzllcFOwzAMhmtp78gBCi8BnIATIG3NOLWcFk50z0kiai3zbMdJIy5E+qWojvPFjR133f8dDrruA3T7PiPq7xQbjjF8n4g99ZuM2is+HHtkfK0sq74y3OtN+Z7RhyrHbMGNug96CLoiXG0cmLOXcp+CnoNeyB5avn7DiX1XyX0Negt6J9xPhesaxMvdtcZ1jO+ugt0LeSVx4//1wplrY0wlcePdznCe00Mht1e4Ug3hu0TPv+ZOc7FivLR+a/PKerccO/r1ldzt5jcnrdw4xoU5NKih9Jv0btD7XVO7u8I6WpNTubi1OhpXciQ2zrW7bc11C1eqXxrzNtNLS+K15jOux176COVvVxpvCTdK6qUt4+XeybSX4h63C//G+P9zfb80p4aEb1lvrV9P5h4u++TEfPeM0MbFjH3wkOQ8ztF2hFOf9nBeG3TtzPjkaukIl3N6vpnYuLXUR7L/5fgBiK5iuA==
+  </data>
+ </layer>
+ <layer id="5" name="Слой тайлов 5" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzQENACAIRcE/EmsDaSCNIYW48a7ASZhombTt/Xvq9Ib31hkNLwAAAPCzBHpNAxA=
+  </data>
+ </layer>
+ <layer id="6" name="Слой тайлов 6" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQw0wMjEwMAExMxN97VUE2qcExMpk2OsE1OMM1WcPpB2A2JFIcwyB6oyA2BiL+lJmCL2YGbveIKCeYKg+fyAdAMSBFIabJ9CuRcy47YQBQ6g98UA6AYgT6Rxfo2Dwg8fANPQEiJ8SSEvUBKB0KcDCwCAIxEIs9LMXBGyB9tkBsT3UXkJ5aBTQB2gC40ELiLXpHB9hQPvCgTiCzvY2A+1rAeLW0fRHESAm/5Ja3+MCfxhJU0+N+r4JqFeGRP3UqO8nAfXqjLYXCIJFRObfRczEqx3JAACYRhem
+  </data>
+ </layer>
+ <layer id="7" name="Слой тайлов 7" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzUENACAMBLDLpIID8J+ACsajNdAEAAD4wahk1vt33XM3vPQ7xj0Bsw==
+  </data>
+ </layer>
+</map>

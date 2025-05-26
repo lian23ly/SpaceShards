@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="1">
+ <tileset firstgid="1" name="TopDownHouse_SmallItems" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="TopDownHouse_SmallItems.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="interior free" tilewidth="16" tileheight="16" tilecount="50" columns="10">
+  <image source="interior free.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="115" name="TopDownHouse_FloorsAndWalls" tilewidth="16" tileheight="16" tilecount="162" columns="18">
+  <image source="TopDownHouse_FloorsAndWalls.png" width="288" height="144"/>
+ </tileset>
+ <tileset firstgid="277" name="TopDownHouse_FurnitureState1" tilewidth="16" tileheight="16" tilecount="234" columns="13">
+  <image source="TopDownHouse_FurnitureState1.png" width="208" height="288"/>
+ </tileset>
+ <tileset firstgid="511" name="TopDownHouse_FurnitureState2" tilewidth="16" tileheight="16" tilecount="234" columns="13">
+  <image source="TopDownHouse_FurnitureState2.png" width="208" height="288"/>
+ </tileset>
+ <tileset firstgid="745" name="pixelart_starfield_diagonal_diffraction_spikes" tilewidth="16" tileheight="16" tilecount="400" columns="20">
+  <image source="pixelart_starfield_diagonal_diffraction_spikes.png" width="320" height="320"/>
+ </tileset>
+ <layer id="1" name="Слой тайлов 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyt1keQjnccB/CHfUMQjCRqBhd9JQYXXRITLojVxUWJ3nsnSkii7RK9dxK9HCTXsKcwoxxwIsFI9LKrjPLZ2zvv7rzPPt738Dn8Lt//PPOdeeZ7p2QQ/Mf/3OUe93nAQx7xmCc85Rl55POcF7zkFXciZL3mDW8JMoKgBCXJIMYHlKI0H1KGspTjI8pTgYoZ0bIq8TGf8CmVqUJVqlGdGnzGCnErySYnKHxHyapLPerTgIY0IpPGfM4XNGG77B3sZFdQ+I6S1ZJWtKYNbWlHe77kK76mA8dln+Akp4LCd5SsLnTlW7qRRXd60JNe9KYPf8k+w1lyg8J3lKyBDGIw3zOEoQwrRp9hd3zWcEYwklFMYSrTmM4MZjKrGH2G3fFZs5nDXObxM7+wlGUsL/hOVhajz7A7PiubHFaxmi1sZVvB97GDnewqRp9hd3zWbvawl30cK/guTqShz7D7tDf+4E/OcJbcNPQZdv/tjXOc5wpXuZaGPsPu6964wT/c4z4P0tBn2P3MG3nkUyLm301GLPX+LnCRS1wu4i7jjbKUozJVqBpLvb9/ucktbhdx1/RGLWrTkEZkxlLvL498nvOiiLupN5rRnLa0o30s9f7C3v3GGx3pRBbd6UFPetGbPu/Rd2Kf8Vl96cd39GcIQxnGcEYwklHv0Xdin/FZoxnDWMbFkm+iVPtNtrGSbaJU+022sdK5r+pEyEvnvmoRIS+d+6pzhLx07qsBEfKS7avETTSaMYxlHOOZwEQmMTlCXrJ9lbiJfmA+C1jIIn5kMUv4KUJesn2VuIl+ZQ1rWcd6NrCRTWyOkJdsXyVuov0c4Dd+5yCHOMwRjkbIewfC3+ZF
+  </data>
+ </layer>
+ <layer id="2" name="Слой тайлов 2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj8gJ+R4QAfEPMCMQ8Qo/MH2n2jgDRAavyNxvfgBtSOn9H4HgWjYHgDZkYGBhYgBuZxBmBeB+V5igEPknnCQCxCBTNHAXUAenyfJUIPLeLzI+VGjNpLBMCWv0fz5+AHACXpGIg=
+  </data>
+ </layer>
+ <layer id="3" name="Слой тайлов 3" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjcoJgINS00sPcsEWrOjNpLMkCPT3LsJSe+ibGHVHeM2ktefJJqL7b4/kgFewiBFQNk771Re0ftHeb2ogOQO9qAuB2IO4C4k0b2YLN3BhDPBOJZQDybjvauAuLVQLwGiNfS0d49QLwXiPcB8X462YsOWBjpYw85YNTeUTBSAQC4yDLR
+  </data>
+ </layer>
+ <layer id="4" name="Слой тайлов 4" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer id="8" name="Слой тайлов 5" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzbkRgDAQwMBz/wWBITXg1Dz9WBUQXqSdUawI/VlKxEqVNtpLzrfxOeiki3rSd/C56aGXvqSvJEmSpHwT3vkLqg==
+  </data>
+ </layer>
+ <layer id="9" name="Слой тайлов 6" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh64CkjhE5gop+d/ED8CWivDJDOpbG9jTjMrwKKS9DQ3j46hic2oAy0XwWIVUH+pKNbDIB2GQKx0QD7fyiDucCwmzcA4bcKaOdqIJ4PxAvoaP92oF07gHgNEK/FYq8lsKywAmJrRuraewRo11Eg3gnEu7DY6wa0zx2IPahsryTQLikglqZzHKsB7VMHYo3RvEk3IAMMa1kKw/sUUP9pID5DgjmaQLVaQKwIxEp0jO9UoF1pQMxF5zRWBLSvGIjF6WxvPdC+htH8NApGwShAAwB7FxfL
+  </data>
+ </layer>
+ <layer id="10" name="Слой тайлов 7" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhDRzoaNd5JuqZZcnIwGAFxNaMhNXeoaK9bkD73IHYgwh7YYANaL8J9ZxANBCmor9HwSgYBaNgFIyCUYAJABJOA8o=
+  </data>
+ </layer>
+ <layer id="11" name="Слой тайлов 8" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztkjEKg1AMQPN7KC/gaN3VXbsruFboBdy8gIeztR3bqpMP3Lo4GSnmwSNkehAiYhi6BE7kjKFb9o55d9t3IxoxJujhGz8K3ZRGhhf0FXr/SvNzm1LpVi2dB/b4xBu+lNpfOgOOWON0oP/ITlKlqN0taOY7dCua1x26hmEYhrHGDC0ZF4I=
+  </data>
+ </layer>
+ <layer id="12" name="Слой тайлов 9" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DgQCPTwNjbN0D2joJRgAvIAdOk/ACkS22gnTqj+WEUjIIRCWIHKO9nDZC95aNl3SgYBVgBALcVAvQ=
+  </data>
+ </layer>
+ <layer id="13" name="Слой тайлов 10" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DsOQEAUheE7s0V0CnQKdFbjUXssBz024qzAJExmQs6fnO4mX3dFGGPsfzVKpMU6rFf3t4sWWbFNv3cHWCM2YbPB3eEd2PnCDWCEWGSwbJfAS7HMsVvAK7HKscsY+36xhR//pNyTW3ty2fe6AL78Dw0=
+  </data>
+ </layer>
+ <layer id="17" name="Слой тайлов 14" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztk7EOQDAUResLEWwINgSDBKMEowRf7HxAx6aSeic5yxt623dTpQRBcJ3R+yZ31eROzHwMMMQZF8P3OzXnbcxSzDDHHQ8Le7nIqLHBFm98PupDMEtEjzEmlvssyCuxspz7t/d25PU4yH8VBMFxXnuNDxY=
+  </data>
+ </layer>
+ <layer id="14" name="Слой тайлов 11" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwgltMDAy3mahnXgkjA0MpI2F1z4F2vqCivY1AO5uIsJfaoA9oZ/8A2DtUASuF+jcCw3rTAIT3PqCd+wfA3tNAO88MgL03gHbeHE3Xo2AUDEvgCczbXjTM3/w4xMOAdoYPQLmSDLQzZbQ8GwWDAAAAYIQO7Q==
+  </data>
+ </layer>
+ <layer id="15" name="Слой тайлов 12" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzTEKACEMRNGQayx4E91+1169/0UcQbC0S/UfTBMC3wwAAACIld2saK+fWwrofur9Wt3dJ6C5NPW6Nvz+C0Sa7ZoC7w==
+  </data>
+ </layer>
+ <layer id="16" name="Слой тайлов 13" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU4AKXmBgYLjPR3977QDsfDIC9wwFIjIbbsAaijAwMYoz0t1cJaKfyANiLDuQGyA3ag8Dvo4B2gB1Ybv4HxTGdy08RoH08QMw7Wm6PglEwoAAAb+oFhA==
+  </data>
+ </layer>
+ <layer id="18" name="Слой тайлов 15" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzcEJACAQxMC9RmzAh/pXa7N0twkPhAzkHQkAAPyihdTdcCV0sr7Tv+W2q4lfAMBbF8ORApk=
+  </data>
+ </layer>
+ <layer id="19" name="Слой тайлов 16" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAoGFwhiHBh744H2mlHZbhkmBgZZJvxqcoB2OhNprxkQ2wGxLQF1mkA7tQjYSw3wkZGh4QMQ094mVPAPaOffAbB3ETCeFg9A+lwPtHPDAOWLUTAKRsHwBgDbCAtp
+  </data>
+ </layer>
+</map>

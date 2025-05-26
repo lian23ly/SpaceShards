@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" name="bg" tilewidth="16" tileheight="16" tilecount="880" columns="40">
+  <image source="Starry_night_Layer_8.png" width="640" height="360"/>
+ </tileset>
+ <tileset firstgid="881" name="floor" tilewidth="16" tileheight="16" tilecount="49" columns="7">
+  <image source="atlas_floor-16x16.png" width="112" height="112"/>
+ </tileset>
+ <tileset firstgid="930" name="walls" tilewidth="16" tileheight="16" tilecount="192" columns="24">
+  <image source="atlas_walls_high-16x32.png" width="384" height="128"/>
+ </tileset>
+ <layer id="1" name="Слой тайлов 1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJwl1mf4zmUYBuDLrGTPSIlKNtmblFmEInvLKCNN2gvtSdGkPaz2Mpu0h9nSojRpD3Qehw/nl/9439/7PPd9XW/zAlnVjKY0oTFH04iGNKA+9ahLHWpTi6OoyZEcweHUoDqHUY1DOYSqHEwVKlOSEhTnQIpxAPuzH0UpQmEKUZAChL3Jqj3s5j/+5R/+5i/+5A9+5zd+ZRc72cY3fM1XfMkXbOVzPuNTPuFjtrCZTWxkA+v5iA/5gPd5j3d5h7d5izdZx1pWsJyXeJEXeJ7neJZneJqneJInWMZSlrCYRTzOYzzKIzzMQzzIA9zPfSxkAXOZw63cws3cxI3cwPVcx7Vcw9VcxWxmMZMruYLLuYxLuYSLuYgLuYDzmcF0JjOJ0zmNiUxgPOM4lbGMYTSjGMkIhjOMoQxhMIMYyABOoT/9OJmT6EsfutCZ4ziWThxDRzrQnna0pQ2taUVLWtCcZjSlCY05mkY0pAH1qUdd6lCbQzmEqhxMFSpzEJWoSAXKU46ylKE0pShJCYpzIMU4gP3Zj6IUoTCFKEiBfT+L38XfxN/G/8T/xmvEa8VrxmvHe8R7xXvGe8czxLPEM8WzxTPGs8Yzx7PHZ4jPEp8pPluqcRjVqYEziLOIM4mziTOKs4ozi7OLM4yzjDONs40zjrOOM4+zjzuIu4g7ibuJO4q7ijuLu4s7jLtMV7rRnR6487j7mIGYhZiJmI2YkZiVmJmYnZihmKWYqZitmLGYtZi5mL2YwZjFmMmYzZjRmNWY2ZjdTGEqZzANMx6zHjMfsx87ELsQOxG7ETsSuxI7E7sTOxS7FDsVuxU7FrsWOxe7FzsYuxg7GbsZOxq7mtu4nXnMx07HbseOx67HzsfuRwZEFkQmRDZERkRWRGZEdkSGRJZEpkS2RMZE1kTmRPZEBkUWRSZFNmUlq1jNGmRYZFlkWmRbZFxkXWReZF9kYGRhZGJkY2RkZGVkZmRnZGhkaWRqtiJjI2sjcyN7I4Mji7Odb/mOHcjsyO7I8MjyyPTI9sj4yPrI/Mj+6IDoguiE6IboiOiK6IzojuiQ6JLolOiW6Jjomuic6J6UojRlKIuOiq6Kzoruig6LLotOi26Ljouui86L7osOjC6MToxujI6MrozOjO6MDo0ujU6Nbo2OTXNa0JJWtKYzXehKN7rTg+M5gZ704kR604e+nMTJ9KM/pzCAgQxiMEMYyjCGM4KRjGISk5nCVM5gGmdyFmdzDudyHtOZwflcwIVcxMVcwqVcxuVcwZXMZBazuYqrmcNcbuN25jGfO7iTu7ibe7iXBSzkPu7nAR7kIR7mER7lMR5nEYtZwlKW8QTLWcHKAvuCczVreJlXeJXXeJ03WMs63uQt3uYd3uU93ucDPuQj1rOBjWxiM1v4hm1s51u+Ywff8wM/8hM/8ws72cWv/Mbv/MGf/MXf/MO//Mdu9rCXKIUCFKQEJSlFacpQlnKUpwIVqcRBVKYKB1OVQziUahxGdWpwOEdwJDU5ilrUpg7NaE4LWtKK1rShLe1oTwc6cgydOJbj6EwXutKN7vTgeE6gJ704kd70oS9DGcZwRjCSUYxmDGM5lXGMZwITOY3TmcRkpjCVM5jGmZzF2ZzDuZzHdGZwJTOZxWyu4mqu4Vqu43pu4EZu4mZu4VbmMJfbuJ15zOcO7uQu7uYe7mUBC1nEYpawlGU8wZM8xdM8w7M8x/O8wIu8xHJWsLLgvi8Tq1nDy7zCq7zG67zBWtaxng1sZBOb2cLHfMKnfMbnbOULvuQrvuYbtrGdb/mOHXzPD/zIT/zML+xkF7vZw17iC1ABClKIwhShKPuxPwdQjAMpTglKUorSlKEs5ShPBSpSiYOoTBWOpCZHUYva1KEu9ahPAxrSiKNpTBOa0ozmtKAlrWhNG9rSjvZ0oCPH0Ime9OJEetOHvpzEyfSjP6cwgIEMYjBDGMowhjOCkYxiNGMYy6mMYzwTmMj/F1JMZw==
+  </data>
+ </layer>
+ <layer id="2" name="Слой тайлов 2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztk9EKgCAMRQV/tF/QR4ve+u+IkkRvObf1ErswhFDPvW06ZzKZ/qrZt9+Cd1Our7gBcGt2ydfwct3ZcBAXlZDLqujv8xRWuf+o5M8e9zhve6QZVwI/ey1XNJuSf7wQffRyo9mse8XpcS8j6tH2wExKWbUyIp+kxgIPo9nqM1zu6HxwedJ7ZuI8Ufhx4A1mtlRa/k0mk6521jOkIQ==
+  </data>
+ </layer>
+ <layer id="3" name="Слой тайлов 3" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhDzRZBkav4wDpjRwgvaNg+ANy8gMleQgGyMkPlOQhGCAnP4zmoVEwCkbBcAIAeYIDPQ==
+  </data>
+ </layer>
+</map>
