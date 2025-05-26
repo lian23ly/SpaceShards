@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" name="bg" tilewidth="64" tileheight="64" tilecount="450" columns="90">
+  <image source="../Foozle_2DS0015_Void_EnvironmentPack/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Split up/Starry background  - Layer 01 - Solid colour.png" width="5760" height="360"/>
+ </tileset>
+ <tileset firstgid="451" name="Starry background - Layer X - Big Star" tilewidth="64" tileheight="64" tilecount="450" columns="90">
+  <image source="../Foozle_2DS0015_Void_EnvironmentPack/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Split up/Starry background - Layer X - Big Star.png" width="5760" height="360"/>
+ </tileset>
+ <tileset firstgid="901" name="Starry background - Layer X -Black hole" tilewidth="64" tileheight="64" tilecount="450" columns="90">
+  <image source="../Foozle_2DS0015_Void_EnvironmentPack/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Split up/Starry background - Layer X -Black hole.png" width="5760" height="360"/>
+ </tileset>
+ <tileset firstgid="1351" name="Starry background - Layer X -Rotary Star 2" tilewidth="64" tileheight="64" tilecount="450" columns="90">
+  <image source="../Foozle_2DS0015_Void_EnvironmentPack/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Split up/Starry background - Layer X -Rotary Star 2.png" width="5760" height="360"/>
+ </tileset>
+ <tileset firstgid="1801" name="Starry background - Layer X -Rotary Star" tilewidth="64" tileheight="64" tilecount="450" columns="90">
+  <image source="../Foozle_2DS0015_Void_EnvironmentPack/Foozle_2DS0015_Void_EnvironmentPack/Backgrounds/PNGs/Split up/Starry background - Layer X -Rotary Star.png" width="5760" height="360"/>
+ </tileset>
+ <tileset firstgid="2251" name="02_craftrecipe" tilewidth="64" tileheight="64" tilecount="480" columns="30">
+  <image source="../dannypixel/01_MINIVERSE/02_craftrecipe.png" width="1920" height="1080"/>
+ </tileset>
+ <tileset firstgid="2731" name="Asteroid 01 - Explode" tilewidth="30" tileheight="30" tilecount="75" columns="25">
+  <image source="../Foozle_2DS0015_Void_EnvironmentPack/Foozle_2DS0015_Void_EnvironmentPack/Asteroids/PNGs/Asteroid 01 - Explode.png" width="768" height="96"/>
+ </tileset>
+ <tileset firstgid="2806" name="bg" tilewidth="64" tileheight="64" tilecount="880" columns="40">
+  <image source="../Starry_Night_Itch_Package/Layers_2560x1440/Starry_night_Layer_8.png" width="2560" height="1440"/>
+ </tileset>
+ <tileset firstgid="3686" name="Starry_night_Layer_6" tilewidth="64" tileheight="64" tilecount="880" columns="40">
+  <image source="../Starry_Night_Itch_Package/Layers_2560x1440/Starry_night_Layer_6.png" width="2560" height="1440"/>
+ </tileset>
+ <tileset firstgid="4566" name="Starry_night_Layer_4" tilewidth="64" tileheight="64" tilecount="880" columns="40">
+  <image source="../Starry_Night_Itch_Package/Layers_2560x1440/Starry_night_Layer_4.png" width="2560" height="1440"/>
+ </tileset>
+ <layer id="4" name="space" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJwl1GW0lmUWBuAt3SiYgHQ3qKCElICk0g0Kgg12IIhdlAl2kHaQtntMQAE7SNsZk0ZAYK418+Na66xzvvO9z7P3fb+LS0Yu4iVe5AWe5zme5Rme5imeZCELmM885jKHJ3icx3iUR3iYh3iQB7if2cxiKndwO7dxK7dwMzdxIzdwPdcxhWuZzCSuYSJXcxVXcgWXcxmXcgkXcxETGM8YRnMmZzCKkYxgOMMYyhAGM4iBDKA//ehLH07nNHrTi570oDvdOJWudKE1rTiJE2lJC07geI6jOc1oShMa04iGNKA+9ahLHWpTi5rUoDrVqEoVKlOechzGoZSlDKUpRUlKUJxiFKUIhSlEQQpwCMHBEpEH2M8/7GMve/ib3ewq8b+zhDOFs4UzhrOGM4ezhzuEu4Q7hbuFO4a7hjuHu4cZhFmEmYTZhBmFWYWZhdmFGYZZhplGG9pyMu0w+7CDsIuwk7CbsKOwq7CzsLuww7DLsNOw27DjsOuw87D7kIGQhZCJkI2QkZCVkJmQnZChOIuxjONsZC1kLmQvZDBkMWQyZDNkNGQ1ZDZkN2Q4ZDlkOmQ7ZDxkPWQ+ZD90IHQhdCJ0I3QkdCV0JqYxnRnMRLdCx0LXQudC90IHQxdDJ0M3Q0dDV0NnQ3dDh0OXQ6dDt0PHQ9dD50P3wzsgvAvCOyG8G2IxS1jKMpbzNu/wLu/xPh+wgpWs4kM+YjVrWMvHfMKnfMbnfMGXfMXXfMM61rOBjWxiM7/yG7/zB3/yF1vYyja2s4Od7GI3f7OHvezjH/ZzgINEqYhDKEBBClGYIhSlHOU5nCM4kqM4mmOoQEUqcSyVqUJVqlGdGtSkFrWpQ13qUZ8GNKQRjWlCK1rThracTDva04GOdOIUOtOFrpxKN7rTg570ojencTp96Es/+jOAgQxiNGM4i7GM42zO4VzO43wu4ELGM4GLuJhLuJTLuJwruJKruJqJXMMkJnMtU7iDqUxjOjOYyZ3cxd3cw73cxyxmcz8P8CAP8TCP8CiP8ThPMIe5zGM+C1jIIhazhKUsYzkv8wqv8hqv8wZv8hbJv3ibd3iX93ifD1jBSlbxIR+xmjWsZR3r2cBGNrGZb/mO7/mBH/mJn/mFf/MffuU3fucP/uQvtrCVbWxnBzvZxW4KlJZzClGYIhSlGMUpQUlKUZoylOVQDqMc5TmcIziSoziaY6hARSpxLJWpQn0a0JBGNKYJTWlGc47jeE6gBS05kZNoRWva0JaTaUd7OtCRTpxCZ7rQlb70oz8DGMggBjOEoQxjOCMYySjO4ExGM4azGMs4zuYczuU8zucCLmQ8E5jINUxiMtcyheu4nhu4kZu4mVu4ldu4nTuYyjSmM4OZ3Mld3M093Mt9zGI2c5jLPOazgIU8yVM8zTM8y3M8zwu8yEssYjFLWMoylvMyr/Aqr/E6b/Amb7GKD/mI1axhLR/zCZ/yGZ/zBV/yFV/zDetYzwY2sonNfMt3fM8P/MhP/MwvbGM7O9jJLnbzN3vYyz7+YT8HOEiU8d6nAAUpRGGKUJRiFKcEJSlFacpQlgpUpBLHUpkqVKUa1alBTWpRmzrUpR71aUBDGtGYJjSlGc05juM5gRa0pCOdOIXOdKErp9KN7vSgJ73ozWmcTh/60o/+DGAggxjMEIYyjOGMYCSj/v9z+l36W/pM+mz6n/S/6TvSd6XvTN+dnpGelZ6Znp3OkM6SzpTOls6YzprOnM6e7pDuku6U7pbumB1oj7unGaRZpJmk2aQZpVmlmaXZpRmmWaaZptmmGadZp5mn2acdpF2knaTdpB2lXaWdpd2lHaZdpp3mMRyNXaedp92nDKQspEykbKSMpKykzKTspAylLKVMpWyljKWspcyl7KUMpiymTKZspoymrKbMpuymDOdWtiDbKeMp6ynzKfupA6kLqROpG6kjqSupM6k7qUOpS6lTqVupY6lrqXOpe6mDqYupk6mbqaOpq6mzuZIV/Bf4TpOJ
+  </data>
+ </layer>
+ <layer id="5" name="mountains" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztw8VSkGEAAMDf9igjiooYWNjeTbBb7LvdQTe2YN7txG7Ru4WBInZ7t7tjX4OZb2c2ioIgCIIgCIKg5klrFEXpZphpltnmmGue+RZYaJHFLnO5K1zpKle7xrWWWOo617vBjW5ys1vc6ja3u8Od7nK3e9zrPvdb5gEPesjDHvGoxzzuCU96ytOe8azlnvO8F7zoJS97xQqves3r3rDSm96yyttWe8e73vO+D3zoIx/7xKc+87kvfOkrX/vGt77zvR/86Cc/+8WvfvO7P/zpL3/7x7/+M4qJolrWto51rWd9G9jQxsbaxKbG2czmtjDelibYyta2sa2JtrO9HexoJ5PsbBe72s3u9rCnvextH/vaz/4OMNkUBzrIwQ5xqMMc7ghHOsrRjnGs40x1vBOc6CQnO8WpTnO6M5zpLGc7x7nOc74LXOgiF7vEpaaZboaZZpltjrnmmW+BhRZZ7H+Lincv
+  </data>
+ </layer>
+ <layer id="6" name="trees" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0wO7FQYAgOGTW8tcvBnLuJlbtrW8bNettmwM2bbbwrK2ls0te8t2vf+j8z3P+xO+QCBYsGDBggUL9rm0IG4gsJBFLGYJS1nGclawklWsZg1rWcdv/M56NrCRTfzBZrawlW1sZwc72cUhDnOEoxzjOCc4ySlOc4aznOM8F/iHf7nIJS5zhatc4zo3uMktbnOHuzzjOS94ySte84a3vOM9H/hIIF4gEI7wRCAikYhMFKLyBdH4kujEICaxiE0ckpGcFISQklSkJg1pSUd6MpCRTHxNZrKQlWxkJwc5yUVu8hBKXvKRnwKUpBSlKUNZylGeClSkEpWpQlWqUZ0a1KQWtalDXepRn+9oQEMa0ZgmNKU9HehIJzrTha50ozs96EkvehNGH/rSjx/4kf4MYCCDGMwQhjKM4YxgJBOYyCQmM4WpTGM6M5jJLGYzh7nMYz4LWMgiFrOEpSxjOStYySpWs4a1bGUb29nBTnaxmz3s5U/+Yh9/s58DHOQQhznCUY5xnBOc5BSnOcNZznGeG9zkFre5w13+43/ucZ8HPOQRj3nCU57xnBe85BWvecNb3vGeD3wkEN8PRCcGMYlFbOIQl3jEJwEJScRXJCYJSUlGclIQQkpSkZo0pCUd6clARjKRh1Dyko/8FKAghShMEYpSjOKU4Bu+pSSlKE0ZylKO8lSgIpWoTBWqUo0GNKQRjWlCU5rxPc1pQUta0Zo2tKUd7elARzrRmS50pRvd6UFPetGbMIYwlGEMZwQjGcVoxjCWcfzEz/zCr4xnAhOZxGSmMJVpTGcGM5nFbOYwl0+IPeK0
+  </data>
+ </layer>
+ <layer id="8" name="Слой тайлов 4" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+</map>
